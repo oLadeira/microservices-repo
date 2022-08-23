@@ -3,7 +3,7 @@ spring:
     name: ms-vagas
   profiles:
     active:
-    - dev
+      dev
 server:
   port: 8080
 ms-empresas:
