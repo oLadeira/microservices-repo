@@ -1,7 +1,5 @@
 spring:
   application:
     name: ms-empresas
-  profiles:
-    active: dev
 server:
   port: 8000
