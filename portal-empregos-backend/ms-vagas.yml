@@ -1,9 +1,8 @@
 spring:
   application:
     name: ms-vagas
-  data:
-    mongodb:
-      uri: mongodb://localhost:27017/ms-vagas-test-db
+  profiles:
+    active: dev
 
 server:
   port: 8080
