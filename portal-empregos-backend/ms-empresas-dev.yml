@@ -1,4 +1,8 @@
 spring:
+  application:
+    name: ms-empresas
   data:
     mongodb:
       uri: mongodb://localhost:27017/ms-vagas-test-db
+server:
+  port: 8000
